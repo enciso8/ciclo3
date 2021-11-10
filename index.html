@@ -1,0 +1,86 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<body bgcolor="black">
+<div id="encabezado"></div>
+
+<div id="menu">
+	
+<nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <li><a href='http://'>Inicio</a></li>
+    <li><a class='dropdown-arrow' href='http://'>Products</a>
+      <ul class='sub-menus'>
+        <li><a href='http://'>Products Sub Menu 1</a></li>
+        <li><a href='http://'>Products Sub Menu 2</a></li>
+        <li><a href='http://'>Products Sub Menu 3</a></li>
+        <li><a href='http://'>Products Sub Menu 4</a></li>
+      </ul>
+    </li>
+    <li><a href='http://'>Acerca</a></li>
+    <li><a class='dropdown-arrow' href='http://'>Services</a>
+      <ul class='sub-menus'>
+        <li><a href='http://'>Services Sub Menu 1</a></li>
+        <li><a href='http://'>Services Sub Menu 2</a></li>
+        <li><a href='http://'>Services Sub Menu 3</a></li>
+      </ul>
+    </li>
+    <li><a href='http://'>Contact Us</a></li>
+  </ul>
+</nav>
+
+
+</div>
+
+<div id="cuerpo">
+	<div id="formulario">
+		<br>
+<center>FORMULARIO DE INSCRIPCIÓN</center>
+<br>
+<form action="#" method="POST">
+<fieldset>
+Nombres: <input type="text" name="nombre" size="40" placeholder="Escribe tu nombre"><br><br>
+Apellidos: <input type="text" name="apellidos" size="40" placeholder="Escribe tu apellido">
+<br><br>
+Cedula: <input type="number" name="cedula" size="11" placeholder="Escribe tu cedula">
+
+<br><br>
+Fecha de nacimiento: <input type="date" name="fnacimiento" size="20" >
+
+<br><br>
+Correo: <input type="email" name="correo" size="30" placeholder="Escribe tu correo electronico">
+
+<br><br>
+<b>Sexo:</b> Masculino:<input type="radio" name="sexo" value="Masculino"> Femenino: <input type="radio" name="sexo" value="Femenino">Otros: <input type="radio" name="sexo" value="otros"></fieldset>
+<br><br>
+<fieldset>
+<b>Requisitos:</b><br><br>
+
+Fotocopia de la cedula:<input type="checkbox" name="requisitos" value="fotocopia">
+
+<br><br>
+
+Formato diligenciado:<input type="checkbox" name="requisitos" value="formato">
+<br><br>
+
+Ciclo3 aprobado:<input type="checkbox" name="requisitos" value="aprobado"></fieldset>
+<br>
+<center>
+<input type="submit" value="Guardar" class="btn">
+
+
+<input type="reset" value="Reset" class="btn">
+</center>
+</form>
+	</div>
+</div>
+
+<div id="pie"></div>
+
+</body>
+</html>
